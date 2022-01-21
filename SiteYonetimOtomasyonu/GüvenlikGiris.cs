@@ -21,5 +21,14 @@ namespace SiteYonetimOtomasyonu
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Güvenlik_anasayfa güvenlik_Anasayfa = new Güvenlik_anasayfa();
+            güvenlik_Anasayfa.Show();
+            this.Hide();
+            
+
+        }
     }
 }
