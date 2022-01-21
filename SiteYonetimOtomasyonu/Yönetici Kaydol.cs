@@ -36,5 +36,10 @@ namespace SiteYonetimOtomasyonu
         {
 
         }
+
+        private void Yönetici_Kaydol_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

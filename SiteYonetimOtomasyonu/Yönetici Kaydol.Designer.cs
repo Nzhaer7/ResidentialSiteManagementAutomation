@@ -113,6 +113,7 @@
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "Yönetici_Kaydol";
             this.Text = "Yönetici_Kaydol";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Yönetici_Kaydol_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
