@@ -6,5 +6,12 @@ namespace SiteYonetimOtomasyonu
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Yonetici yonetici = new Yonetici();
+            yonetici.Show();
+            this.Hide();
+        }
     }
 }
