@@ -36,31 +36,31 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button1.Location = new System.Drawing.Point(15, 212);
+            this.button1.Location = new System.Drawing.Point(67, 227);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(414, 287);
+            this.button1.Size = new System.Drawing.Size(309, 212);
             this.button1.TabIndex = 0;
             this.button1.Text = "YÖNETİCİ";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button2.Location = new System.Drawing.Point(435, 212);
+            this.button2.Location = new System.Drawing.Point(491, 227);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(414, 287);
+            this.button2.Size = new System.Drawing.Size(309, 212);
             this.button2.TabIndex = 1;
             this.button2.Text = "KULLANICI";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button3.Location = new System.Drawing.Point(855, 212);
+            this.button3.Location = new System.Drawing.Point(910, 227);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(414, 287);
+            this.button3.Size = new System.Drawing.Size(309, 212);
             this.button3.TabIndex = 2;
             this.button3.Text = "PERSONEL";
             this.button3.UseVisualStyleBackColor = false;
