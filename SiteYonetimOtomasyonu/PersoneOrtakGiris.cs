@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace SiteYonetimOtomasyonu
 {
-    public partial class Kiraci : Form
+    public partial class PersoneOrtakGiris : Form
     {
-        public Kiraci()
+        public PersoneOrtakGiris()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SifremiUnuttum sifremiUnuttum = new SifremiUnuttum();   
+            SifremiUnuttum sifremiUnuttum = new SifremiUnuttum();
             sifremiUnuttum.Show();
             this.Hide();
         }
 
-        private void Kiraci_FormClosed(object sender, FormClosedEventArgs e)
+        private void PersoneOrtakGiris_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }

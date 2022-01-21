@@ -26,5 +26,12 @@ namespace SiteYonetimOtomasyonu
         {
             Application.Exit();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SifremiUnuttum sifremiUnuttum = new SifremiUnuttum();
+            sifremiUnuttum.Show();
+            this.Hide();   
+        }
     }
 }
