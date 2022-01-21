@@ -33,5 +33,12 @@ namespace SiteYonetimOtomasyonu
             sifremiUnuttum.Show();
             this.Hide();   
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            KayitOlmaSayfasi kayitOlmaSayfasi = new KayitOlmaSayfasi();
+            kayitOlmaSayfasi.Show();
+            this.Hide();
+        }
     }
 }
