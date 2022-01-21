@@ -28,5 +28,12 @@ namespace SiteYonetimOtomasyonu
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            KullanıcıArayuz kullanıcıArayuz = new KullanıcıArayuz();
+            kullanıcıArayuz.Show();
+            this.Hide();
+        }
     }
 }
