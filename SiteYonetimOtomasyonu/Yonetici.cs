@@ -36,8 +36,8 @@ namespace SiteYonetimOtomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            KayitOlmaSayfasi kayitOlmaSayfasi = new KayitOlmaSayfasi();
-            kayitOlmaSayfasi.Show();
+            Yönetici_anasayfa_arayüz yönetici_Anasayfa_Arayüz = new Yönetici_anasayfa_arayüz();
+            yönetici_Anasayfa_Arayüz.Show();
             this.Hide();
         }
     }
