@@ -13,5 +13,12 @@ namespace SiteYonetimOtomasyonu
             yonetici.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Personel personel = new Personel();
+            personel.Show();
+            this.Hide();
+        }
     }
 }
