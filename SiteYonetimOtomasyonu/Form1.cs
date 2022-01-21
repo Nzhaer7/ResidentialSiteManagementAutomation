@@ -7,24 +7,25 @@ namespace SiteYonetimOtomasyonu
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             Yonetici yonetici = new Yonetici();
             yonetici.Show();
             this.Hide();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Personel personel = new Personel();
-            personel.Show();
-            this.Hide();
-        }
-        private void button2_Click_1(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             Kiraci kiraci = new Kiraci();
             kiraci.Show();
-            this.Hide ();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Personel personel = new Personel(); 
+            personel.Show();
+            this.Hide();
         }
     }
 }
