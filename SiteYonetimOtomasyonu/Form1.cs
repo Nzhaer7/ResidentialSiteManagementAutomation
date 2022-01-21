@@ -20,5 +20,11 @@ namespace SiteYonetimOtomasyonu
             personel.Show();
             this.Hide();
         }
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Kiraci kiraci = new Kiraci();
+            kiraci.Show();
+            this.Hide ();
+        }
     }
 }
