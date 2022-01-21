@@ -21,5 +21,12 @@ namespace SiteYonetimOtomasyonu
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TemizlikciArayuz temizlikciArayuz = new TemizlikciArayuz();
+            temizlikciArayuz.Show();
+            this.Hide();
+        }
     }
 }
