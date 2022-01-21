@@ -21,5 +21,26 @@ namespace SiteYonetimOtomasyonu
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PersoneOrtakGiris personeOrtakGiris = new PersoneOrtakGiris();
+            personeOrtakGiris.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            PersoneOrtakGiris personeOrtakGiris = new PersoneOrtakGiris();
+            personeOrtakGiris.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            PersoneOrtakGiris personeOrtakGiris = new PersoneOrtakGiris();
+            personeOrtakGiris.Show();
+            this.Hide();
+        }
     }
 }
