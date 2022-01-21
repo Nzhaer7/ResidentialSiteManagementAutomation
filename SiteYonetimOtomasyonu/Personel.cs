@@ -24,22 +24,22 @@ namespace SiteYonetimOtomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PersoneOrtakGiris personeOrtakGiris = new PersoneOrtakGiris();
-            personeOrtakGiris.Show();
+            GüvenlikGiris güvenlikGiris = new GüvenlikGiris();
+            güvenlikGiris.Show();
             this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            PersoneOrtakGiris personeOrtakGiris = new PersoneOrtakGiris();
-            personeOrtakGiris.Show();
+            UstaGiris ustaGiris = new UstaGiris();  
+            ustaGiris.Show();
             this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            PersoneOrtakGiris personeOrtakGiris = new PersoneOrtakGiris();
-            personeOrtakGiris.Show();
+            TemizlikciGiris temizlikciGiris = new TemizlikciGiris();    
+            temizlikciGiris.Show();
             this.Hide();
         }
     }
